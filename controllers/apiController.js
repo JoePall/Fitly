@@ -8,8 +8,8 @@ module.exports = app => {
     });
   });
   
-  app.get("/api/workouts/:id", (req, res) => {
-    workout.find({}).then(data => {
+  app.put("/api/workouts/:id", (req, res) => {
+    workout.update({ where: { id: req.params.id } }, req.body).then(data => {
       res.json(data);
     });
   });

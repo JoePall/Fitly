@@ -12,7 +12,7 @@ app.use(express.static("public"));
 app.engine("handlebars", handlebars({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget",
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workouts",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
