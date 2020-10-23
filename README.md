@@ -6,7 +6,6 @@
 Check it out at <a href="https://fitly-express.herokuapp.com/">https://fitly-express.herokuapp.com/</a>
 
 ## Table of contents
-<hr>
 
 <!--ts-->
 * [Table of contents](#table-of-contents)
