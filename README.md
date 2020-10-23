@@ -3,6 +3,7 @@
 ![License](https://img.shields.io/badge/License-MIT%20License-green?style=flat-square.svg)
 
 # Fitly Express
+Check it out at <a href="https://fitly-express.herokuapp.com/">https://fitly-express.herokuapp.com/</a>
 
 ## Table of contents
 <hr>
